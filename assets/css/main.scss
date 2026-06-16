@@ -44,6 +44,32 @@
     "vendor/font-awesome/brands"
 ;
 
+:root,
+html[data-theme="dark"] {
+  --global-base-color: #fff;
+  --global-bg-color: #fff;
+  --global-footer-bg-color: #fff;
+  --global-border-color: #d9dee5;
+  --global-dark-border-color: #d9dee5;
+  --global-link-color: #1f4f82;
+  --global-link-color-hover: #173b61;
+  --global-link-color-visited: #1f4f82;
+  --global-masthead-link-color: #1f2933;
+  --global-masthead-link-color-hover: #1f4f82;
+  --global-text-color: #1f2933;
+  --global-text-color-light: #5d6875;
+}
+
+body,
+.masthead,
+.page__footer {
+  background-color: #fff;
+}
+
+#theme-toggle {
+  display: none;
+}
+
 body,
 button,
 input,
@@ -70,6 +96,19 @@ textarea {
 .masthead,
 .page__footer {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.author__avatar {
+  text-align: center;
+}
+
+.author__avatar img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.10);
 }
 
 .publication-list {

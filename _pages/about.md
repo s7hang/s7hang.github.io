@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student at Renmin University of China.
+I am a second-year Ph.D. student at Renmin University of China, advised by Prof. Zihe Wang.
 
-My research interests include algorithmic game theory, mechanism design, information design, auction theory, and algorithms. I am also interested in geometric algorithms, especially problems related to the Fréchet distance.
+I have broad interests in theoretical problems in computer science and economics. Currently, my research mainly focuses on information design and mechanism design.
 
 You can find my papers on the [publications page](/publications/) and on [Google Scholar](https://scholar.google.com/citations?user=AL3YxaIAAAAJ&hl=en).
 
