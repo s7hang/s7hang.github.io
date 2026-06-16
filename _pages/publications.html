@@ -5,7 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% assign publications = site.publications | sort: "date" | reverse %}
+{% assign publications = site.publications | where_exp: "post", "post.category != 'working'" | sort: "date" | reverse %}
+{% assign working_papers = site.publications | where_exp: "post", "post.category == 'working'" | sort: "date" | reverse %}
 
 <div class="publication-list">
 {% for post in publications %}
@@ -18,7 +19,27 @@ author_profile: true
     {% endif %}
     </h2>
     <p class="publication-authors">{{ post.authors }}</p>
-    <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.year }}.</p>
+    <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.year }}{% if post.note %} {{ post.note }}{% endif %}.</p>
   </article>
 {% endfor %}
 </div>
+
+{% if working_papers.size > 0 %}
+<h2 class="publication-section-title">Working Papers</h2>
+
+<div class="publication-list">
+{% for post in working_papers %}
+  <article class="publication-entry">
+    <h2 class="publication-title">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>
+    {% else %}
+      {{ post.title }}
+    {% endif %}
+    </h2>
+    <p class="publication-authors">{{ post.authors }}</p>
+    <p class="publication-venue">{{ post.year }}{% if post.note %}. {{ post.note }}{% endif %}.</p>
+  </article>
+{% endfor %}
+</div>
+{% endif %}

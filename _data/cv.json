@@ -74,13 +74,13 @@
       "publisher": "ACM Symposium on Theory of Computing (STOC), 2025",
       "releaseDate": "2025-06-01",
       "website": "https://arxiv.org/abs/2402.14540",
-      "summary": "STOC 2025."
+      "summary": "STOC 2025. Invited to Special Issue."
     },
     {
       "name": "Competitive Information Design with Asymmetric Senders",
       "publisher": "ACM Conference on Economics and Computation (EC), 2024",
       "releaseDate": "2024-07-01",
-      "website": "",
+      "website": "https://papers.ssrn.com/sol3/results.cfm?txtKey_Words=Competitive%20Information%20Design%20with%20Asymmetric%20Senders",
       "summary": "EC 2024."
     },
     {
@@ -89,6 +89,13 @@
       "releaseDate": "2024-05-01",
       "website": "https://arxiv.org/abs/2402.16221",
       "summary": "WWW 2024."
+    },
+    {
+      "name": "Optimal Calibrated Signaling in Digital Auctions",
+      "publisher": "Working paper",
+      "releaseDate": "2025-07-01",
+      "website": "https://arxiv.org/abs/2507.17187",
+      "summary": "Working paper."
     }
   ],
   "presentations": [],

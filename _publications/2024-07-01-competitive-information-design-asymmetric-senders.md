@@ -8,6 +8,7 @@ year: "2024"
 excerpt: "EC 2024."
 date: 2024-07-01
 venue: "EC"
+paperurl: "https://papers.ssrn.com/sol3/results.cfm?txtKey_Words=Competitive%20Information%20Design%20with%20Asymmetric%20Senders"
 ---
 
 This paper studies competitive information design with asymmetric senders.
