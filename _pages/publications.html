@@ -7,14 +7,18 @@ author_profile: true
 
 {% assign publications = site.publications | sort: "date" | reverse %}
 
+<div class="publication-list">
 {% for post in publications %}
-  <p>
-    {{ post.authors }}.
+  <article class="publication-entry">
+    <h2 class="publication-title">
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}">{{ post.title }}</a>.
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>
     {% else %}
-      {{ post.title }}.
+      {{ post.title }}
     {% endif %}
-    <em>{{ post.venue }}</em>, {{ post.year }}{% if post.note %}. {{ post.note }}{% endif %}.
-  </p>
+    </h2>
+    <p class="publication-authors">{{ post.authors }}</p>
+    <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.year }}.</p>
+  </article>
 {% endfor %}
+</div>

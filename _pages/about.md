@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student at Renmin University of China.
+I am a second-year Ph.D. student at Renmin University of China.
 
 My research interests include algorithmic game theory, mechanism design, information design, auction theory, and algorithms. I am also interested in geometric algorithms, especially problems related to the Fréchet distance.
 

@@ -4,7 +4,7 @@
     "email": "zhangshuo1422@ruc.edu.cn",
     "phone": "",
     "website": "",
-    "summary": "Research interests: algorithmic game theory, mechanism design, information design, digital auctions, and algorithms.",
+    "summary": "Second-year Ph.D. student at Renmin University of China. Research interests: algorithmic game theory, mechanism design, information design, digital auctions, and algorithms.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -67,21 +67,21 @@
       "publisher": "ACM Conference on Economics and Computation (EC), 2026",
       "releaseDate": "2026-06-01",
       "website": "https://arxiv.org/abs/2505.22673",
-      "summary": "EC 2026. Author order marked as alphabetical (α-β)."
+      "summary": "EC 2026."
     },
     {
       "name": "Constant Approximation of Fréchet Distance in Strongly Subquadratic Time",
       "publisher": "ACM Symposium on Theory of Computing (STOC), 2025",
       "releaseDate": "2025-06-01",
       "website": "https://arxiv.org/abs/2402.14540",
-      "summary": "STOC 2025. Invited to Special Issue, top 10%. Author order marked as alphabetical (α-β)."
+      "summary": "STOC 2025."
     },
     {
       "name": "Competitive Information Design with Asymmetric Senders",
       "publisher": "ACM Conference on Economics and Computation (EC), 2024",
       "releaseDate": "2024-07-01",
       "website": "",
-      "summary": "EC 2024. Author order marked as alphabetical (α-β)."
+      "summary": "EC 2024."
     },
     {
       "name": "On Truthful Item-Acquiring Mechanisms for Reward Maximization",

@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&display=swap");
+
 /*
  * This file controls what is imported from /_sass
  *
@@ -41,3 +43,76 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.page__content,
+.archive {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.72;
+}
+
+.page__title {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 650;
+}
+
+.author__name,
+.author__bio,
+.author__urls,
+.masthead,
+.page__footer {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.publication-list {
+  margin-top: 1.25rem;
+}
+
+.publication-entry {
+  margin: 0 0 1.45rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.18);
+}
+
+.publication-entry:last-child {
+  border-bottom: 0;
+}
+
+.publication-title {
+  margin: 0 0 0.25rem;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  font-size: 1.18rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.publication-title a {
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+}
+
+.publication-authors,
+.publication-venue {
+  margin: 0.12rem 0;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.publication-authors {
+  color: inherit;
+}
+
+.publication-venue {
+  color: #555;
+}
