@@ -2,7 +2,7 @@
 
 这是基于 Academic Pages / Jekyll 搭建的个人主页项目，公开地址计划为：
 
-https://shuoz.github.io
+https://llwhitez.github.io
 
 ## 内容结构
 
@@ -36,15 +36,15 @@ bundle exec jekyll serve -l -H localhost
 在 GitHub 上创建仓库：
 
 ```text
-shuoz.github.io
+llwhitez.github.io
 ```
 
-如果 GitHub 用户名显示为 `shuoZ`，仓库名仍建议使用小写 `shuoz.github.io`，这是 GitHub Pages 对用户主页的规范形式。将本仓库推送到 GitHub 后，项目中的 `.github/workflows/pages.yml` 会通过 GitHub Actions 自动构建并发布页面。
+如果 GitHub owner 显示为 `llwhiteZ`，仓库名仍建议使用小写 `llwhitez.github.io`，这是 GitHub Pages 对用户主页的规范形式。将本仓库推送到 GitHub 后，项目中的 `.github/workflows/pages.yml` 会通过 GitHub Actions 自动构建并发布页面。
 
 发布成功后，访问：
 
 ```text
-https://shuoz.github.io
+https://llwhitez.github.io
 ```
 
-搜索引擎收录需要页面已经公开上线，并且通常需要等待数天到数周。可以在 Google Search Console 中提交 `https://shuoz.github.io/sitemap.xml` 加快发现。
+搜索引擎收录需要页面已经公开上线，并且通常需要等待数天到数周。可以在 Google Search Console 中提交 `https://llwhitez.github.io/sitemap.xml` 加快发现。
