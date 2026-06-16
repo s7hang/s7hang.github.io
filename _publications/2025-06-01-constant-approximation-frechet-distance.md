@@ -3,7 +3,7 @@ title: "Constant Approximation of Fréchet Distance in Strongly Subquadratic Tim
 collection: publications
 category: conferences
 permalink: /publication/constant-approximation-frechet-distance/
-authors: "Siu-Wing Cheng, Haoqiang Huang, and Shuo Zhang"
+authors: "(α-β). Siu-Wing Cheng, Haoqiang Huang, and Shuo Zhang"
 year: "2025"
 excerpt: "STOC 2025."
 date: 2025-06-01
