@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About me"
+description: "Shuo Zhang is a second-year Ph.D. student at Renmin University of China, advised by Prof. Zihe Wang, working on information design and mechanism design."
 author_profile: true
 redirect_from:
   - /about/

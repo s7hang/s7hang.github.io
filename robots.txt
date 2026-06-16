@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://llwhitez.github.io/sitemap.xml
+Sitemap: https://s7hang.github.io/sitemap.xml
