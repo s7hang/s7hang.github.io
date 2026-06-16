@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "项目"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+这里用于展示研究项目、课程项目、工程作品或开源贡献。每个项目可以作为一个 Markdown 文件放在 `_portfolio/` 目录中。
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% else %}
+  <p>暂无项目条目。添加真实项目后会自动显示在这里。</p>
+{% endfor %}
